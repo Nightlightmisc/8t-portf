@@ -166,13 +166,12 @@ function App() {
                                 </Title>
 
                                 <Text c="dimmed">
-                                  I'm a passionate creative developer and designer with over 5 years of
-                                  experience building digital products that users love. I believe in the
-                                  power of good design and clean code to solve real problems.
+                                  I'm NOT a creative developer with over 3 years of
+                                  experience building anything love. I believe that this
+                                  type of work will give an effect my hobby in positive way.
                                   <br /><br />
-                                  When I'm not coding, you'll find me exploring new design trends,
-                                  contributing to open-source projects, or sharing my knowledge through
-                                  writing and speaking at conferences.
+                                  When I'm not coding, that means I'm focusing on my own tasks. So, why
+                                  not always 24/7 hours on coding? Well, I have my own time-table.
                                 </Text>
                               </div>
 
@@ -196,13 +195,11 @@ function App() {
                         <Card radius="md" withBorder={true} p="lg">
                             <Title order={4} mb="md">Development Logs</Title>
                             <Text size="sm" c="dimmed" style={{ whiteSpace: 'pre-line', lineHeight: 1.6 }}>
-                            I'm a passionate creative developer and designer with over 5 years of
-                            experience building digital products that users love. I believe in the
-                            power of good design and clean code to solve real problems.
+                            Hello. Looks like you hop into the right place. Anyway, welcome to Devlogs. Do you know what
+                            Devlogs is? It's an acronym. It's stands for Development-Logs.
                             <br /><br />
-                            When I'm not coding, you'll find me exploring new design trends,
-                            contributing to open-source projects, or sharing my knowledge through
-                            writing and speaking at conferences.
+                            All you see here is currently empty. So, no log for today. Unless I start making a game.
+                            I use Godot.
                             </Text>
                         </Card>
                         </Stack>
@@ -297,7 +294,7 @@ function App() {
 
                               <Text size="xs" c="dimmed">
                                 Thanks to Gemini and ChatGPT for modifying the code. Perhaps I use this
-                                correctly.
+                                correctly. LMAO
                               </Text>
                             </Stack>
                           </Modal>
