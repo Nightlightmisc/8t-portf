@@ -357,7 +357,7 @@ function App() {
                     <Group grow mt="xl">
                       {/* 6. Fix: Removed bg="dark.5" */}
                       {/* Using variant="default" ensures they are white/gray in light mode and dark in dark mode */}
-                      <Button variant="default" radius="md" style={{ border: 'none' }} leftSection={<IconBrandGithubFilled size={18}/>} rightSection={<IconExternalLink size={18}/>}>
+                      <Button component='a' href="https://github.com/Nightlightmisc/8t-portf#" variant="default" radius="md" style={{ border: 'none' }} leftSection={<IconBrandGithubFilled size={18}/>} rightSection={<IconExternalLink size={18}/>}>
                         View project on GitHub
                       </Button>
                     </Group>
