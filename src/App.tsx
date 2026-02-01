@@ -166,12 +166,13 @@ function App() {
                                 </Title>
 
                                 <Text c="dimmed">
-                                  I'm NOT a creative developer with over 3 years of
-                                  experience building anything love. I believe that this
-                                  type of work will give an effect my hobby in positive way.
+                                  I'm (NOT) a creative developer with over 3 years of
+                                  experience building anything that I love. I believe that this
+                                  will make me happy.
                                   <br /><br />
                                   When I'm not coding, that means I'm focusing on my own tasks. So, why
-                                  not always 24/7 hours on coding? Well, I have my own time-table.
+                                  not always 24/7 hours on coding? Well, I have my own time-table. I don't want
+                                  to waste them honestly.
                                 </Text>
                               </div>
 
@@ -195,11 +196,10 @@ function App() {
                         <Card radius="md" withBorder={true} p="lg">
                             <Title order={4} mb="md">Development Logs</Title>
                             <Text size="sm" c="dimmed" style={{ whiteSpace: 'pre-line', lineHeight: 1.6 }}>
-                            Hello. Looks like you hop into the right place. Anyway, welcome to Devlogs. Do you know what
+                            Hello. Welcome to Devlogs. A place where I am making a progress for my game. Do you know what
                             Devlogs is? It's an acronym. It's stands for Development-Logs.
                             <br /><br />
-                            All you see here is currently empty. So, no log for today. Unless I start making a game.
-                            I use Godot.
+                            Apparently, there's no Devlogs this day. This is due to my time-table which has no gap for free time.
                             </Text>
                         </Card>
                         </Stack>
