@@ -34,11 +34,16 @@ import {
   IconBrandGithubFilled,
   IconBrandPinterestFilled,
   IconBrandMantine,
+  IconBrandYoutubeFilled,
+  IconBrandReddit,
+  IconBrandX,
+  IconDeviceGamepad,
 } from '@tabler/icons-react';
 import { useState } from 'react';
 
 import firewatchImg from './assets/Firewatch.png';
 import ralseiImg from './assets/ralsei.jpeg';
+import ralseiImg2 from './assets/dsd.jpg';
 
 // 1. Simple CSS Animation for the Tabs
 const fadeAnimation = `
@@ -178,7 +183,7 @@ function App() {
 
                               {/* IMAGE */}
                               <Image
-                                src={ralseiImg}
+                                src={ralseiImg2}
                                 alt="Ralsei"
                                 w={160}
                                 radius="md"
@@ -205,14 +210,70 @@ function App() {
                         </Stack>
                     </Box>
                   </Tabs.Panel>
+                    <Tabs.Panel value="socials">
+                      <Box className="animate-tab">
+                        <Card radius="md" withBorder={false} p="lg">
+                          <Title order={4} mb="sm">Socials</Title>
 
-                  <Tabs.Panel value="socials">
-                    <Box className="animate-tab">
-                        <Card radius="md" withBorder={true} p="lg">
-                        <Text c="dimmed">Portfolio items would go here...</Text>
+                          <Text size="sm" c="dimmed" mb="md">
+                            Here is my socials if you want. But I'm not always online.
+                          </Text>
+
+                          <Stack gap="xs">
+                            <Button
+                              component="a"
+                              href="https://www.youtube.com/@NightForRain"
+                              target="_blank"
+                              variant="default"
+                              leftSection={<IconBrandYoutubeFilled size={18} />}
+                            >
+                              YouTube
+                            </Button>
+
+                            <Button
+                              component="a"
+                              href="https://www.reddit.com/user/NightForRain/"
+                              target="_blank"
+                              variant="default"
+                              leftSection={<IconBrandReddit size={18} />}
+                            >
+                              Reddit
+                            </Button>
+
+                            <Button
+                              component="a"
+                              href="https://x.com/nightlightmisc"
+                              target="_blank"
+                              variant="default"
+                              leftSection={<IconBrandX size={18} />}
+                            >
+                              X (Twitter)
+                            </Button>
+
+                            <Button
+                              component="a"
+                              href="https://github.com/Nightlightmisc"
+                              target="_blank"
+                              variant="default"
+                              leftSection={<IconBrandGithubFilled size={18} />}
+                            >
+                              GitHub
+                            </Button>
+
+                            <Button
+                              component="a"
+                              href="https://gamejolt.com/@nightlightmisc"
+                              target="_blank"
+                              variant="default"
+                              leftSection={<IconDeviceGamepad size={18} />}
+                            >
+                              GameJolt
+                            </Button>
+                          </Stack>
                         </Card>
-                    </Box>
-                  </Tabs.Panel>
+                      </Box>
+                    </Tabs.Panel>
+
                   
                   <Tabs.Panel value="credits">
 
