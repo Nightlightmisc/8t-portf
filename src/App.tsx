@@ -43,7 +43,7 @@ import { useState } from 'react';
 
 import firewatchImg from './assets/Firewatch.png';
 import ralseiImg from './assets/ralsei.jpeg';
-import ralseiImg2 from './assets/dsd.jpg';
+import ralseiImg2 from './assets/tenco.png';
 
 // 1. Simple CSS Animation for the Tabs
 const fadeAnimation = `
